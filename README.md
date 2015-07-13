@@ -32,6 +32,16 @@ This is a workspace for developing rules and guidelines for our team when design
 - Admin Pages & Customizer
 - Plugins
 
+### Hooks vs. Functions
+In order to maintain a "never broken" environment, themes should always favor the use of actions and filters instead of calling functions specified outside of WordPress core directly.
+```php
+// get_field() is specified in the ACF plugin. If the function is used without the plugin being active, this will trigger a PHP error.
+$data = get_field('my_data');
+
+// Instead, using a filter creates a passive way to handle this and allows for default values. If no theme or plugin registers a filter to this hook, the $default variable will simply pass through unaltered.
+$data = apply_filters('neh_get_my_data', $default);
+```
+
 ## Deliverables
 For a 3rd party developer, I think there are two primary deliverables that we want back from them.
 
