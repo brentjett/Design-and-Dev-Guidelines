@@ -7,6 +7,10 @@ This is a workspace for developing rules and guidelines for our team when design
 - Client deliverables
 
 ## Theme Development
+When developing themes for client sites, there are some general philosophies to follow. 
+- *Be Like WordPress:* In almost all cases, impliment features the way you would expect WordPress itself to impliment them. Don't roll your own solutions if a stable solution already exists. Don't add a lot of extra pages to the admin. When you do add settings, make sure they appear like the built-in settings pages do.
+- *Discoverability:* If at all possible, make features easy to discover and understand without needing documentation. This goes for both UI features in WordPress and for the code in a theme. A developer with minimal understanding of the platform should be able to look at the theme code in six months and discover what is happening.
+- *Documentation:* Regardless of how intuitive you think you've made your code, you must document it. **Choose code documentation standard**
 
 ### Theme Support
 - Automatic Feed Links - In almost all cases, automatic feed links should be set to true. This is the default behavior and can be left unset.
