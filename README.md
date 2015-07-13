@@ -6,7 +6,12 @@ This is a workspace for developing rules and guidelines for our team when design
 - Mockups
 - Client deliverables
 
-## Development
+## Theme Development
+
+### Theme Support
+- Automatic Feed Links - In almost all cases, automatic feed links should be set to true. This is the default behavior and can be left unset.
+
+
 - Theme Organization
 - Styling
 - Templates
