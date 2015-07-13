@@ -42,10 +42,10 @@ $data = get_field('my_data');
 $data = apply_filters('neh_get_my_data', $default);
 ```
 
-## Deliverables
-For a 3rd party developer, I think there are two primary deliverables that we want back from them.
+## Deliverables for 3rd Party Developers
+For a 3rd party developer, there are two primary deliverables that are expected.
 
-- Final theme in git repo - a git repository that we provide to them with the finished theme in it.
+- Theme Git Repo - A git repository will be provided for work on the client site's theme. All changes throughout the development of the site should be committed and pushed to the theme's repository. If branching is needed, a final stable build of the theme should be merged back into the master branch before being deployed to the staging or production environment.
     - README.md - explainer file. Should tell what's going on in the theme.
     - CHANGELOG.md - Versions file.
 - Fully configured development instance of WordPress
