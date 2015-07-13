@@ -10,10 +10,15 @@ This is a workspace for developing rules and guidelines for our team when design
 
 ### Theme Support
 - Automatic Feed Links - In almost all cases, automatic feed links should be set to true. This is the default behavior and can be left unset.
+- HTML5 Support
+- Post Formats
+- Post Thumbnails
+- Custom Background
+- Custom Header - There is almost never a reason to support custom header images.
 
 
-- Theme Organization
-- Styling
+### Theme Organization
+- Styling vs. Layout
 - Templates
     - Do NOT print *title tag*. Use theme support.
     - Required Hooks
@@ -24,6 +29,7 @@ This is a workspace for developing rules and guidelines for our team when design
     - Required Custom Hooks
         - do_action('neh_after_open_body') directly after *body* tag. This is a dependancy for our plugins that insert GTM containers into page. [TK theme](https://github.com/Themekraft/_tk) uses the 'before' action here. No harm if you want to include both.
 - Assets - Do we need a specific folder naming convention for assets?
+- Admin Pages & Customizer
 - Plugins
 
 ## Deliverables
