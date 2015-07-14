@@ -1,5 +1,5 @@
 # [PROPOSED] Content Filters API
-This is a proposed interface for common content transforms that should be available in our foundation theme.
+This is a proposed interface for common content transforms that should be available in our foundation theme. Content elements such as phone numbers, email addresses, physical addresses, etc... should be filtered, even if no transform is required. These hooks allow for future-proofing and easy discovery later.
 
 ## Phone Numbers
 Phone numbers should be transformable between formatted and integer states. Also it should be easy to request tel: anchor tags. All phone numbers should be either linked or wrapped in a span tag with the appropriate classes applied for discovery/switching operations later.
