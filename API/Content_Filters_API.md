@@ -14,7 +14,7 @@ Phone numbers should be transformable between formatted and integer states. Also
 <a href="tel:5554443333" class="phonelink phonenumber">(555) 444-3333</a>
 ```
 
-Phone number formatting and elements can be generated using filters. Filters should be used over direct function calls to prevent function_exists errors. See [Hooks vs. Functions](../#hooks-vs-functions)
+Phone number formatting and elements can be generated using filters. Filters should be used over direct function calls to prevent function_exists errors. See [Hooks vs. Functions](https://github.com/brentjett/Design-and-Dev-Guidelines#hooks-vs-functions)
 
 ```php
 // Get formatted number from raw integer - (444) 555-6666
