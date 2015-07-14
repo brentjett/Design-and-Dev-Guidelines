@@ -1,4 +1,4 @@
-# Content Filters API - PROPOSED
+# [PROPOSED] Content Filters API
 This is a proposed interface for common content transforms that should be available in our foundation theme.
 
 ## Phone Numbers
@@ -16,7 +16,7 @@ Phone numbers should be transformable between formatted and integer states. Also
 
 Phone number formatting and elements can be generated using filters. Filters should be used over direct function calls to prevent function_exists errors. See [Hooks vs. Functions](https://github.com/brentjett/Design-and-Dev-Guidelines#hooks-vs-functions)
 
-### [Proposed] Phone Number Filters
+### Phone Number Filters
 **neh/format_phone** - Get formatted phone number text based on the system's declared preferred format style
 
 **neh/strip_phone** - Get integer from formatted phone number
