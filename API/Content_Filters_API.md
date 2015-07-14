@@ -39,5 +39,7 @@ print $tag;
 
 ## [Proposed] Phone Number Filters
 **neh/format_phone** - Get formatted phone number text based on the system's declared preferred format style
+
 **neh/strip_phone** - Get integer from formatted phone number
+
 **neh/phone_tag** - Get element of appropriate type and with appropriate classes based on an array of arguments.
