@@ -36,3 +36,8 @@ $tag = apply_filters('neh/phone_tag', $args);
 print $tag;
 // <a href="tel:5554443333" id="desktop-main-phone" class="phonelink hide-on-mobile">Click Here to Call</a>
 ```
+
+## [Proposed] Filters
+_neh/format_phone_ - Get formatted phone number text based on the system's declared preferred format style
+_neh/strip_phone_ - Get integer from formatted phone number
+_neh/phone_tag_ - Get element of appropriate type and with appropriate classes based on an array of arguments.
