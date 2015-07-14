@@ -17,11 +17,14 @@ Phone numbers should be transformable between formatted and integer states. Also
 Phone number formatting and elements can be generated using filters.
 
 ```php
+// Get formatted number from raw integer - (444) 555-6666
 $raw_number = 4445556666;
 $formatted_number = apply_filters('neh/format_phone', $raw_number);
 
+// Get raw integer from formatted number - 4445556666
 $raw_number = apply_filters('neh/strip_phone', $formatted_number);
 
+// Get appropriate element with correct classes based on arguments
 $args = [
     'phone_number' => 5554443333,
     'is_anchor' => true,
