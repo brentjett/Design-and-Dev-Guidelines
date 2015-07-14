@@ -37,7 +37,7 @@ print $tag;
 // <a href="tel:5554443333" id="desktop-main-phone" class="phonelink hide-on-mobile">Click Here to Call</a>
 ```
 
-## [Proposed] Filters
-_neh/format_phone_ - Get formatted phone number text based on the system's declared preferred format style
-_neh/strip_phone_ - Get integer from formatted phone number
-_neh/phone_tag_ - Get element of appropriate type and with appropriate classes based on an array of arguments.
+## [Proposed] Phone Number Filters
+**neh/format_phone** - Get formatted phone number text based on the system's declared preferred format style
+**neh/strip_phone** - Get integer from formatted phone number
+**neh/phone_tag** - Get element of appropriate type and with appropriate classes based on an array of arguments.
