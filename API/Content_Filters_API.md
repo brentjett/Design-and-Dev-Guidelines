@@ -16,6 +16,13 @@ Phone numbers should be transformable between formatted and integer states. Also
 
 Phone number formatting and elements can be generated using filters. Filters should be used over direct function calls to prevent function_exists errors. See [Hooks vs. Functions](https://github.com/brentjett/Design-and-Dev-Guidelines#hooks-vs-functions)
 
+### [Proposed] Phone Number Filters
+**neh/format_phone** - Get formatted phone number text based on the system's declared preferred format style
+
+**neh/strip_phone** - Get integer from formatted phone number
+
+**neh/phone_tag** - Get element of appropriate type and with appropriate classes based on an array of arguments.
+
 ```php
 // Get formatted number from raw integer - (444) 555-6666
 $raw_number = 4445556666;
@@ -36,10 +43,3 @@ $tag = apply_filters('neh/phone_tag', $args);
 print $tag;
 // <a href="tel:5554443333" id="desktop-main-phone" class="phonelink hide-on-mobile">Click Here to Call</a>
 ```
-
-## [Proposed] Phone Number Filters
-**neh/format_phone** - Get formatted phone number text based on the system's declared preferred format style
-
-**neh/strip_phone** - Get integer from formatted phone number
-
-**neh/phone_tag** - Get element of appropriate type and with appropriate classes based on an array of arguments.
