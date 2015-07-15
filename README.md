@@ -3,8 +3,11 @@
 This is a workspace for developing rules and guidelines for our team when designing websites and developing them on WordPress.
 
 ## Design
-- Mockups
-- Client deliverables
+### Mockups
+During the design phase of a project, designs can be conveyed to clients images or live html but should show at minimum, the mobile and desktop experiences. It is important to get design approval on the following page types:
+- Service Pages - At least one key service page should be approved by the client.
+- Location Pages - For businesses with physical locations, at least one location page should be approved by the client.
+- Home Page
 
 ## Theme Development
 When developing themes for client sites, there are some general philosophies to follow.
