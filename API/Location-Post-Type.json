@@ -1,4 +1,11 @@
 {
   "title" : "Location Title",
-  "slug" : "location-name"
+  "slug" : "location-name",
+  "physical_address" : {},
+  "contact_methods" : {
+    "main-phone" : {
+      "value" : "512-212-1234",
+      "is_primary_phone" : true
+    }
+  }
 }
