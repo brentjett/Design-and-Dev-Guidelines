@@ -7,9 +7,7 @@
 ## Content
 - [ ] All content pages should have calls-to-action appropriate to the content of the page.
 
-
 ## Forms
--
 
 ## Visibility
 - [ ] Is the site publicly visible? (See Settings -> Reading, Search Engine Visibility)
